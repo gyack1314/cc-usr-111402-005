@@ -1,0 +1,51 @@
+{
+  "blocks": [
+    {
+      "id": "b1",
+      "kind": "dict",
+      "dictionary": [
+        "HKG",
+        "SHA",
+        "HKG"
+      ],
+      "codes": [
+        0,
+        1,
+        2,
+        999
+      ],
+      "valid": [
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "b2",
+      "kind": "dict",
+      "dictionary": [
+        "sha",
+        "HKG"
+      ],
+      "codes": [
+        0,
+        1
+      ],
+      "valid": [
+        true,
+        true
+      ]
+    },
+    {
+      "id": "b3",
+      "kind": "plain",
+      "values": [
+        "SHA",
+        null,
+        ""
+      ]
+    }
+  ],
+  "collation": "casefold"
+}
